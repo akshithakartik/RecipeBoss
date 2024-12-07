@@ -20,6 +20,8 @@
 backend/.env
 backend/node_modules
 frontend/node_modules
+mernenv/
+.vscode/
 
 npm-debug.log*
 yarn-debug.log*
