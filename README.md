@@ -6,6 +6,7 @@ ChromaSift is a **specialized search engine** designed to filter and rank **chro
 
 
 ## • Demonstration
+![chromasift_video](https://github.com/user-attachments/assets/3c8307b7-288d-486b-8d15-ce6bff26d30c)
 
 https://github.com/akshithakartik/ChromaSift/assets/112664522/9e6a2bf4-5eab-4599-8e31-f0a3ad5bb1a0
 
