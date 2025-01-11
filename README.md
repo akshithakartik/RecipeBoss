@@ -6,5 +6,9 @@ RecipeBoss is a **MERN Stack** application that lets a user browse recipe cards,
 
 ## • Demonstration
 
+CRUD operations:
 ![Demo](CRUD.gif)
+
+Report generator:
+![Demo](Report.gif)
 
