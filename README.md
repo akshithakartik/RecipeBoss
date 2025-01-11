@@ -2,57 +2,9 @@
 
 ## • Description
 
-ChromaSift is a **specialized search engine** designed to filter and rank **chromatography-related documents** from a large corpus of scientific abstracts. Users can **query specific keywords** to retrieve documents, which are then ranked by relevance and assigned a **similarity score**. Additionally, ChromaSift allows users to access the full content of resulting documents by clicking on their titles, providing **direct links** to the corresponding scientific journals.
-
+RecipeBoss is a **MERN Stack** application that lets a user browse recipe cards, and perform actions like adding, updating, and deleting recipes. RecipeBoss also enables the user to filter recipes by certain criteria, and displays the matched results along with a report of statistics.
 
 ## • Demonstration
 
 ![Demo](CRUD.gif)
-
-https://github.com/akshithakartik/ChromaSift/assets/112664522/9e6a2bf4-5eab-4599-8e31-f0a3ad5bb1a0
-
-## • Pipeline
-
-<p align="center">
-  <img src="https://github.com/akshithakartik/ChromaSift/assets/112664522/60441492-86e6-4678-acf3-c1537d4b71a3" alt="ChromaSift Image">
-</p>
-
-1) **Data Collection and Pre-processing**: Abstracts from scientific journals like PubMed are scraped to create a corpus of scientific literature. The abstracts are pre-processed using techniques such as stopword removal and lemmatization to clean and standardize the text.
-
-2) **Neo4j Graph Database**: The pre-processed abstracts are stored in a Neo4j database, enabling efficient querying and relationships analysis.
-
-3) **ML Model**: *SciBERT*, a domain-specific adaptation of BERT tailored for scientific text, is used to generate embeddings for both documents and queries. *Cosine Similarity* and *BM-25* are combined to compute a hybrid score, which quantifies the percentage similarity between a document and the query.
-
-4) **Streamlit**: The results are integrated into an interactive interface built with Streamlit, allowing users to input queries and view ranked documents based on their relevance.
-
-## • Features
-
-While existing platforms like PubMed, Google Scholar, Scopus, Web of Science, and SciFinder offer extensive databases and advanced search capabilities for accessing scientific literature, ChromaSift is specifically geared towards chromatography-related documents, providing a **focused and curated search experience** for users interested in this field.
-
-<img src="https://github.com/akshithakartik/ChromaSift/assets/112664522/16085d81-cff0-4059-8cf5-aad58f0d0e95" align="right" height="350" width="420" />
-
-ChromaSift provides **query flexibility** and **comprehensive results**. It goes beyond basic keyword matching by detecting and retrieving documents that are **indirectly related** to the entered keyword. 
-
-For example, when the query "*amino acid*" is entered, a document with 22% similarity is returned. 
-Interestingly, this document does not contain the phrase "*amino acid*" **anywhere** in its text. 
-
-However, it is determined as relevant because it primarily discusses High-Performance Liquid Chromatography (HPLC) - the main method for amino acid analysis. 
-
-This highlights ChromaSift's ability to identify documents that are indirectly related to the query by considering **broader context** and **connections within scientific literature**.
-
-## • Installation
-
-Install required dependencies with:
-
-`pip install -r requirements.txt`
-
-You may chose to use the abstracts provided, or scrape your own data.
-
-
-
-
-
-
-
-https://github.com/user-attachments/assets/21201e54-bcff-4a7d-b33c-9b7b520833da
 
